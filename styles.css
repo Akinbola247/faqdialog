@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #AF67E9, #6565E7);
+    font-family: 'Kumbh Sans', sans-serif;
+    
+   
+    
+}
+.tab{
+    position: relative;
+    width: 60%;
+    height: 55%;
+    background-color: white;
+    border-radius: 25px;
+    text-align: none;
+    display: flex;
+    justify-content: none;
+    align-items: none;
+}
+
+.pattern {
+  position: absolute;
+  bottom: -180px;
+  right: 470px;
+  display: block;
+}
+.woman{
+    position: absolute;
+    right: 55%;
+    top: 50px;
+    display: flex;
+    
+    
+
+}
+.box{
+   position: relative;
+   top: 180px;
+    right: 100px;
+   z-index: 1;
+   display: flex;
+}
+
+.answer1,
+.answer2,
+.answer3,
+.answer4,
+.answer5{
+    display: none;
+}
+.question1,
+.question2,
+.question3,
+.question4,
+.question5{
+    display: inline;
+}
+.faq{
+    align-content: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 43%;
+    height: 50%;
+    height: 50%;
+    padding: none;
+}
+.arrow1, 
+.arrow2,
+.arrow3,
+.arrow4,
+.arrow5{
+    display: inline;
+    margin-left: 30px;
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.weight {
+    font-weight: bold;
+}
+#faqq {
+    text-align: none;
+}
+.smallWoman{
+    position: absolute;
+    display: none;
+    width: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.smallpattern{
+    display: none;
+}
+@media only screen and (max-width: 1280px) {
+    .smallpattern{
+        display: block;
+        position: absolute;
+        top: 5%;
+    }
+    .pattern{
+        display: none;
+    }
+
+    .tab{
+        width: 80%;
+        height: 80%;
+        text-align: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .woman {
+        display: none;
+    }
+    .smallWoman{
+        position: absolute;
+        top: -70px;
+        display: block;
+        margin-left: 60px;
+        width: 200px;
+    }
+   
+    #faqq {
+        text-align: center;
+    }
+    .faq{
+        position: relative;
+        top : 10px;
+        bottom: 2px;
+        left: 10px;
+        width: 330px;
+        padding: 0px 15px;
+    }
+    .box {
+        display: none;
+    }
+}
